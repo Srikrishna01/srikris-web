@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Lato";
+    background: #F4F6F5;
+    color: #555;
+}
+
+.drawer{
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right:80px;
+    top:40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.drawer:hover{
+    cursor: pointer;
+}
+.first{
+    background: #FF6D70;
+    width:100%;
+    height: 6px;
+    border-radius: 100px;
+}
+.second{
+    background: #FCCE3A;
+    width: 75%;
+    height: 6px;
+    border-radius: 100px;
+}
+.third{
+    background: #B0E9DA;
+    width: 40%;
+    height: 6px;
+    border-radius: 100px;
+
+}
+
+.slot{
+    background: #E4E4E4;
+    width:120px;
+    height:120px;
+    box-shadow:inset 0 5px 20px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    position: absolute;
+    top:40px;
+    left:30px;
+}
+.slot_hov{
+    background: url("./Capture.PNG");
+    width:120px;
+    height:120px;
+    box-shadow: 2px 4px 20px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    background-size: 80px 80px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    z-index: 1;
+    position: absolute;
+    top:70px;
+    left:60px;
+}
+
+.title{
+    font-size: 6rem;
+    font-weight: 600;
+    filter:opacity(10%);
+    position: absolute;
+    top:70px;
+    left:270px;
+}
+.my-form{
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    top:270px;
+    left:60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.form-title{
+   color: #000;
+   font-size: 2rem; 
+   line-height: 45px;
+}
+.line {
+    display: flex;
+    width: 60px;
+    height: 4px;
+}
+
+.l-first{
+    background: #FF6D70;
+    width:50%;
+    height: 4px;
+    border-radius: 100px;
+}
+.l-second{
+    background: #FCCE3A;
+    width: 30%;
+    height: 4px;
+    border-radius: 100px;
+}
+.l-third{
+    background: #B0E9DA;
+    width: 20%;
+    height: 4px;
+    border-radius: 100px;
+
+}
+
+.summary{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 1.7;
+}
+
+input{
+    color:rgba(100,100,100,0.4);
+    border:none;
+    outline:none;
+    width: 20px;
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-shadow: 0px 1px 20px rgba(0,0,0,0.1);
+}
+
+.red-btn{
+    color: #fff;
+    border:none;
+    outline: none;
+    width: 30%;
+    height: 50px;
+    background: #FE6D70;
+    border-radius: 4px;
+    box-shadow: 0px 10px 20px rgba(254,109,112,0.4);
+}
+
+.red-btn:hover{
+    cursor: pointer;
+    filter: brightness(90%);
+}
+
+.bul{
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("./build.PNG");
+    width: 550px;
+    height: 360px;
+    background-size: contain;
+    top:250px;
+    right: 80px;
+}
+
+.foot{
+    width: 100%;
+    height:200px;
+    margin-top:100vh;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.con{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 6px;
+    width:30%;
+    height:130px;
+    margin-left: 60px;
+    box-shadow: 0px 3px 20px rgba(0,0,0,0.1);
+}
+
+.skype{
+    display: flex;
+    align-items: center;
+    flex:1;
+    border-bottom:2px solid rgba(100,100,100,0.2);
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    flex:1;    
+}
+
+.skype-icon{
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    background: url("./skype.png") ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.gmail-icon{
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    background: url("./gmail.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.info{
+    margin-left: 20px;
+    color: rgba(60,60,60,0.8);
+}
